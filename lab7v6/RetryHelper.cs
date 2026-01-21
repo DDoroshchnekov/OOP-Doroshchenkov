@@ -12,28 +12,25 @@ namespace Lab7
             Func<Exception, bool> shouldRetry = null)
         {
             if (initialDelay == null) initialDelay = TimeSpan.FromSeconds(1);
-            if (shouldRetry == null) shouldRetry = ex => true;
 
-            int attempt = 0;
-            TimeSpan delay = initialDelay.Value;
-
-            while (true)
+            for (int attempt = 1; attempt <= retryCount; attempt++)
             {
                 try
                 {
-                    attempt++;
                     return operation();
                 }
                 catch (Exception ex)
                 {
-                    if (attempt >= retryCount || !shouldRetry(ex))
+                    if (shouldRetry != null && !shouldRetry(ex))
                         throw;
 
-                    Console.WriteLine($"Спроба {attempt} неуспішна: {ex.Message}. Повтор через {delay.TotalSeconds} сек.");
-                    Thread.Sleep(delay);
-                    delay = TimeSpan.FromSeconds(delay.TotalSeconds * 2); // експоненційна затримка
+                    Console.WriteLine($"Спроба {attempt} неуспішна: {ex.Message}. Повтор через {initialDelay.Value.TotalSeconds} сек.");
+                    Thread.Sleep(initialDelay.Value);
+                    initialDelay = TimeSpan.FromSeconds(initialDelay.Value.TotalSeconds * 2); // експоненційна затримка
                 }
             }
+            // Остання спроба
+            return operation();
         }
     }
 }

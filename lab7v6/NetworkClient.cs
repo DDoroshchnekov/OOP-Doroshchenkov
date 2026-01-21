@@ -3,19 +3,18 @@ using System.Net.Http;
 
 namespace Lab7
 {
-    public class NetworkClient
+    class NetworkClient
     {
-        private int downloadAttempts = 0;
+        private int _attempts = 0;
 
-        // Метод імітує HttpRequestException перші 3 рази
         public string DownloadData(string url)
         {
-            downloadAttempts++;
-            if (downloadAttempts <= 3)
+            _attempts++;
+            if (_attempts <= 3)
             {
                 throw new HttpRequestException($"Помилка мережі при завантаженні: {url}");
             }
-            return $"Дані з мережі: {url}";
+            return $"Дані успішно завантажено з {url}";
         }
     }
 }
