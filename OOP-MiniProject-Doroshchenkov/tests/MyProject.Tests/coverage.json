@@ -1,0 +1,429 @@
+{
+  "MyProject.Application.dll": {
+    "C:\\Users\\Денис\\Desktop\\OOP-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\src\\MyProject.Application\\LibraryService.cs": {
+      "MyProject.Application.LibraryService": {
+        "System.Void MyProject.Application.LibraryService::AddBook(System.String,System.String)": {
+          "Lines": {
+            "15": 1,
+            "16": 1,
+            "18": 1,
+            "19": 1
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Application.LibraryService::BorrowBook(System.Guid)": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 20,
+              "EndOffset": 33,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Collections.Generic.List`1<MyProject.Domain.Book> MyProject.Application.LibraryService::GetAvailableBooks()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Application.LibraryService::Save()": {
+          "Lines": {
+            "40": 1,
+            "41": 1,
+            "42": 1
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Application.LibraryService::.ctor(MyProject.Domain.ILibraryRepository)": {
+          "Lines": {
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "MyProject.Domain.dll": {
+    "C:\\Users\\Денис\\Desktop\\OOP-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\src\\MyProject.Domain\\Book.cs": {
+      "MyProject.Domain.Book": {
+        "System.Guid MyProject.Domain.Book::get_Id()": {
+          "Lines": {
+            "7": 6
+          },
+          "Branches": []
+        },
+        "System.String MyProject.Domain.Book::get_Title()": {
+          "Lines": {
+            "9": 6
+          },
+          "Branches": []
+        },
+        "System.String MyProject.Domain.Book::get_Author()": {
+          "Lines": {
+            "11": 6
+          },
+          "Branches": []
+        },
+        "System.Boolean MyProject.Domain.Book::get_IsAvailable()": {
+          "Lines": {
+            "13": 13
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Domain.Book::Borrow()": {
+          "Lines": {
+            "39": 3,
+            "40": 3,
+            "41": 1,
+            "43": 2,
+            "44": 2
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 40,
+              "Offset": 12,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void MyProject.Domain.Book::Return()": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Domain.Book::.ctor(System.Guid,System.String,System.String,System.Boolean)": {
+          "Lines": {
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Domain.Book::.ctor(System.String,System.String)": {
+          "Lines": {
+            "24": 6,
+            "25": 6,
+            "26": 6,
+            "27": 1,
+            "29": 5,
+            "30": 1,
+            "32": 4,
+            "33": 4,
+            "34": 4,
+            "35": 4,
+            "36": 4
+          },
+          "Branches": [
+            {
+              "Line": 26,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 16,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 5
+            },
+            {
+              "Line": 29,
+              "Offset": 37,
+              "EndOffset": 39,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 37,
+              "EndOffset": 50,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 4
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Денис\\Desktop\\OOP-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\src\\MyProject.Domain\\Loan.cs": {
+      "MyProject.Domain.Loan": {
+        "System.Guid MyProject.Domain.Loan::get_BookId()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Guid MyProject.Domain.Loan::get_UserId()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime MyProject.Domain.Loan::get_LoanDate()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Domain.Loan::.ctor(System.Guid,System.Guid)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Денис\\Desktop\\OOP-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\src\\MyProject.Domain\\User.cs": {
+      "MyProject.Domain.User": {
+        "System.Guid MyProject.Domain.User::get_Id()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String MyProject.Domain.User::get_Name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Domain.User::.ctor(System.String)": {
+          "Lines": {
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 16,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "MyProject.Infrastructure.dll": {
+    "C:\\Users\\Денис\\Desktop\\OOP-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\src\\MyProject.Infrastructure\\InMemoryLibraryRepository.cs": {
+      "MyProject.Infrastructure.InMemoryLibraryRepository": {
+        "System.Void MyProject.Infrastructure.InMemoryLibraryRepository::AddBook(MyProject.Domain.Book)": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MyProject.Domain.Book> MyProject.Infrastructure.InMemoryLibraryRepository::GetBooks()": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "MyProject.Domain.Book MyProject.Infrastructure.InMemoryLibraryRepository::GetBookById(System.Guid)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Infrastructure.InMemoryLibraryRepository::Save()": {
+          "Lines": {
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Infrastructure.InMemoryLibraryRepository::.ctor()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Денис\\Desktop\\OOP-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\OOP-MiniProject-Doroshchenkov\\src\\MyProject.Infrastructure\\JsonLibraryRepository.cs": {
+      "MyProject.Infrastructure.JsonLibraryRepository": {
+        "System.Void MyProject.Infrastructure.JsonLibraryRepository::AddBook(MyProject.Domain.Book)": {
+          "Lines": {
+            "28": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MyProject.Domain.Book> MyProject.Infrastructure.JsonLibraryRepository::GetBooks()": {
+          "Lines": {
+            "33": 1,
+            "34": 1,
+            "35": 1
+          },
+          "Branches": []
+        },
+        "MyProject.Domain.Book MyProject.Infrastructure.JsonLibraryRepository::GetBookById(System.Guid)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Infrastructure.JsonLibraryRepository::Save()": {
+          "Lines": {
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "50": 1,
+            "51": 1
+          },
+          "Branches": []
+        },
+        "System.Void MyProject.Infrastructure.JsonLibraryRepository::.ctor(System.String)": {
+          "Lines": {
+            "9": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2,
+            "15": 2,
+            "16": 2,
+            "17": 2,
+            "19": 2,
+            "20": 1,
+            "21": 1,
+            "22": 1,
+            "23": 1,
+            "24": 2,
+            "25": 2
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 19,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 21,
+              "Offset": 77,
+              "EndOffset": 79,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 77,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 19,
+              "Offset": 65,
+              "EndOffset": 91,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 15,
+              "Offset": 39,
+              "EndOffset": 92,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
