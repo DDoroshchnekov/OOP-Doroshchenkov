@@ -17,3 +17,5 @@ Console application for library management.
 
 ```bash
 dotnet run --project src/MyProject.Console
+
+Final PR preparation.
