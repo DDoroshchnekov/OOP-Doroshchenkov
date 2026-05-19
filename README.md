@@ -4,11 +4,14 @@
 
 Console application for library management.
 
-## Technologies
+## Features
 
-- C#
-- .NET
-- xUnit
+- Show books
+- Borrow books
+- Save/load books
+- JSON persistence
+- Unit tests
+- Integration tests
 
 ## Run
 
