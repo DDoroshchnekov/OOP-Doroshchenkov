@@ -7,4 +7,6 @@ public interface ILibraryRepository
     List<Book> GetBooks();
 
     Book? GetBookById(Guid id);
+
+    void Save();
 }

@@ -20,4 +20,8 @@ public class InMemoryLibraryRepository : ILibraryRepository
     {
         return _books.FirstOrDefault(b => b.Id == id);
     }
+
+    public void Save()
+    {
+    }
 }

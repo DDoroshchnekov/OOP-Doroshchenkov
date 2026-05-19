@@ -102,3 +102,5 @@ C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-
 C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\tests\MyProject.Tests\obj\Debug\net8.0\MyProject.Tests.pdb
 C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\tests\MyProject.Tests\obj\Debug\net8.0\MyProject.Tests.genruntimeconfig.cache
 C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\tests\MyProject.Tests\obj\Debug\net8.0\ref\MyProject.Tests.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\tests\MyProject.Tests\bin\Debug\net8.0\MyProject.Infrastructure.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\tests\MyProject.Tests\bin\Debug\net8.0\MyProject.Infrastructure.pdb

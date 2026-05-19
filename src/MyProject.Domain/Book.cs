@@ -1,11 +1,25 @@
+using System.Text.Json.Serialization;
+
 namespace MyProject.Domain;
 
 public class Book
 {
-    public Guid Id { get; }
-    public string Title { get; }
-    public string Author { get; }
+    public Guid Id { get; private set; }
+
+    public string Title { get; private set; }
+
+    public string Author { get; private set; }
+
     public bool IsAvailable { get; private set; }
+
+    [JsonConstructor]
+    public Book(Guid id, string title, string author, bool isAvailable)
+    {
+        Id = id;
+        Title = title;
+        Author = author;
+        IsAvailable = isAvailable;
+    }
 
     public Book(string title, string author)
     {

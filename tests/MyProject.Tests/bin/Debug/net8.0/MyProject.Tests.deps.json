@@ -11,7 +11,9 @@
           "Microsoft.NET.Test.Sdk": "17.8.0",
           "MyProject.Application": "1.0.0",
           "MyProject.Domain": "1.0.0",
+          "MyProject.Infrastructure": "1.0.0",
           "coverlet.collector": "6.0.0",
+          "coverlet.msbuild": "10.0.1",
           "xunit": "2.5.3",
           "xunit.runner.visualstudio": "2.5.3"
         },
@@ -20,6 +22,7 @@
         }
       },
       "coverlet.collector/6.0.0": {},
+      "coverlet.msbuild/10.0.1": {},
       "Microsoft.CodeCoverage/17.8.0": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -1040,6 +1043,18 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "MyProject.Infrastructure/1.0.0": {
+        "dependencies": {
+          "MyProject.Application": "1.0.0",
+          "MyProject.Domain": "1.0.0"
+        },
+        "runtime": {
+          "MyProject.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1055,6 +1070,13 @@
       "sha512": "sha512-tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
       "path": "coverlet.collector/6.0.0",
       "hashPath": "coverlet.collector.6.0.0.nupkg.sha512"
+    },
+    "coverlet.msbuild/10.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kb5kBe1HioGuH+ZDKysv/oAO9cCUW2yxtrGrRBZp/dIij5f011OfC4XiNMayZ8bGfOv2+n2ocPkaJIGppAZDEg==",
+      "path": "coverlet.msbuild/10.0.1",
+      "hashPath": "coverlet.msbuild.10.0.1.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.8.0": {
       "type": "package",
@@ -1678,6 +1700,11 @@
       "sha512": ""
     },
     "MyProject.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyProject.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

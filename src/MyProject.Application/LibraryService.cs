@@ -14,6 +14,7 @@ public class LibraryService
     public void AddBook(string title, string author)
     {
         var book = new Book(title, author);
+
         _repository.AddBook(book);
     }
 
@@ -33,5 +34,10 @@ public class LibraryService
             .GetBooks()
             .Where(b => b.IsAvailable)
             .ToList();
+    }
+
+    public void Save()
+    {
+        _repository.Save();
     }
 }

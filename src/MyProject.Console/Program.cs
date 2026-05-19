@@ -1,16 +1,23 @@
 ﻿using MyProject.Application;
 using MyProject.Infrastructure;
 
-var repository = new InMemoryLibraryRepository();
+var repository = new JsonLibraryRepository("books.json");
+
 var service = new LibraryService(repository);
 
-service.AddBook("Clean Code", "Robert Martin");
-service.AddBook("C# in Depth", "Jon Skeet");
+if (!service.GetAvailableBooks().Any())
+{
+    service.AddBook("Clean Code", "Robert Martin");
+    service.AddBook("C# in Depth", "Jon Skeet");
+
+    service.Save();
+}
 
 while (true)
 {
     Console.WriteLine("\n1. Show books");
     Console.WriteLine("2. Borrow book");
+    Console.WriteLine("3. Save");
     Console.WriteLine("0. Exit");
 
     var choice = Console.ReadLine();
@@ -18,6 +25,7 @@ while (true)
     switch (choice)
     {
         case "1":
+
             var books = service.GetAvailableBooks();
 
             foreach (var book in books)
@@ -28,6 +36,7 @@ while (true)
             break;
 
         case "2":
+
             Console.Write("Enter book id: ");
 
             if (Guid.TryParse(Console.ReadLine(), out Guid id))
@@ -35,6 +44,7 @@ while (true)
                 try
                 {
                     service.BorrowBook(id);
+
                     Console.WriteLine("Book borrowed");
                 }
                 catch (Exception ex)
@@ -45,7 +55,18 @@ while (true)
 
             break;
 
+        case "3":
+
+            service.Save();
+
+            Console.WriteLine("Saved");
+
+            break;
+
         case "0":
+
+            service.Save();
+
             return;
     }
 }
