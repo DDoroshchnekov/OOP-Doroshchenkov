@@ -1,0 +1,15 @@
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\bin\Debug\net8.0\MyProject.Application.deps.json
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\bin\Debug\net8.0\MyProject.Application.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\bin\Debug\net8.0\MyProject.Application.pdb
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\bin\Debug\net8.0\MyProject.Domain.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\bin\Debug\net8.0\MyProject.Domain.pdb
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProject.Application.csproj.AssemblyReference.cache
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProject.Application.AssemblyInfoInputs.cache
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProject.Application.AssemblyInfo.cs
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProject.Application.csproj.CoreCompileInputs.cache
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProjec.601C7CDF.Up2Date
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProject.Application.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\refint\MyProject.Application.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\MyProject.Application.pdb
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\OOP-MiniProject-Doroshchenkov\OOP-MiniProject-Doroshchenkov\src\MyProject.Application\obj\Debug\net8.0\ref\MyProject.Application.dll
