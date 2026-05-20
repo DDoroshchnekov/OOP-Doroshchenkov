@@ -1,0 +1,15 @@
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\bin\Debug\net8.0\IndependentWork19.exe
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\bin\Debug\net8.0\IndependentWork19.deps.json
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\bin\Debug\net8.0\IndependentWork19.runtimeconfig.json
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\bin\Debug\net8.0\IndependentWork19.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\bin\Debug\net8.0\IndependentWork19.pdb
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.AssemblyInfoInputs.cache
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.AssemblyInfo.cs
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.csproj.CoreCompileInputs.cache
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.sourcelink.json
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\refint\IndependentWork19.dll
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.pdb
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\IndependentWork19.genruntimeconfig.cache
+C:\Users\Денис\Desktop\OOP-Doroshchenkov\IndependentWork19\obj\Debug\net8.0\ref\IndependentWork19.dll
