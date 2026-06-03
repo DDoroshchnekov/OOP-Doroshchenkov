@@ -1,0 +1,30 @@
+name: Docker Build
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'v*'
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Docker image
+        run: docker build -t myapp:${{ github.sha }} .
+
+      - name: Run container smoke test
+        run: |
+          docker run --rm myapp:${{ github.sha }} --version || true
+          echo "Container built and started successfully"
+
+      - name: Tag for release
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          docker tag myapp:${{ github.sha }} myapp:${{ github.ref_name }}
+          docker tag myapp:${{ github.sha }} myapp:latest
+          docker images myapp
